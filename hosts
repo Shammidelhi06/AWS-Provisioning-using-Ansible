@@ -1,0 +1,6 @@
+This should be entry in host file:
+
+cat /etc/ansible/hosts
+
+[localhost]
+localhost ansible_connection=local ansible_python_interpreter=python
